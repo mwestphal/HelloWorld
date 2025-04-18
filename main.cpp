@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include <windows.h>
 #include <libloaderapi.h>
 
 int main()
