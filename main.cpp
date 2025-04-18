@@ -5,7 +5,7 @@
 
 int main()
 {
-  WCHAR path[MAX_PATH] = L"not_exist.dll"
+  WCHAR path[MAX_PATH] = L"not_exist.dll";
   LoadLibraryExW(path, NULL, 0);
   std::cout << "Hello world\n";
 }
